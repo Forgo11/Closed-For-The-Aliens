@@ -1,0 +1,13 @@
+def unique_color_game():
+used_colors = set()
+print("Welcome to the Unique Color Game! Enter a unique color each time.")
+
+while True:
+color = input("Enter a color: ")
+if color.lower() in used_colors:
+print("Sorry, that color has already been used. Game over!")
+break
+else:
+used_colors.add(color.lower())
+
+unique_color_game()
