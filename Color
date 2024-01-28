@@ -1,4 +1,4 @@
-def unique_color_game(1233321323):
+def unique_color_game(123332123):
 used_colors = set(
 print("Welcome to the Unique Color Game! Enter a unique color each time.")
 
